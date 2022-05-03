@@ -1,0 +1,102 @@
+
+  .slogan {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: $white-in-progect;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 12px;
+
+    &__text-normalise{
+        font-style: normal;
+    }
+  }
+  
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: $hero-footer-bc;
+
+    &__container{
+        display: flex;
+    }
+
+    &__logo{
+        margin-bottom: 20px;
+        &-color{
+            color: $secondary-bc;
+        }
+    }
+
+    &__contact-list{
+        @extend %attribute_normalise;
+        line-height: 1.71;
+        color: $white-in-progect;
+
+        & :not(:last-child){
+            margin-bottom: 9px;
+        }
+    }
+
+    &__address,&__contact-link{
+        @extend %link_normalise;
+        @include hoverFocusColor;
+        transition: color $time-and-cubic;
+    }
+    &__address{
+        font-style: inherit;  
+    }
+    &__contact-link{
+        opacity: 0.6;
+    }
+
+  }
+  .subscribe-social {
+    margin-left: 70px;
+
+    &__link{
+        color: $white-in-progect;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+  }
+   
+  /* Footer Form Style */
+  .subscribe{
+    margin-left: 93px;
+    width: 570px;
+    
+    &__cover{
+        display: flex;
+        flex-direction: row;
+    }
+    &__input{
+        height: 50px;
+        padding: 0 0 0 16px;
+        background-color: transparent;
+        outline: none;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+        font-size: 16px;
+        line-height: 1.25;
+        flex-grow: 1;
+        color: $contact-text-color;
+    }
+
+    &__button{
+        padding: 10px 28px 10px 29px;
+        margin-left: 12px;
+        display: inline-flex;
+        align-items: center;
+        color: $white-in-progect;
+    }
+    &__svg{
+        display: block;
+        width: 24px;
+        height: 24px;
+        margin-left: 10px;
+        fill: #ececec;  
+    }
+  }

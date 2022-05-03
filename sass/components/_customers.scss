@@ -1,0 +1,34 @@
+  .customer{
+
+    &__list{
+        @extend %attribute_normalise;
+        @include list-position-flex-mr();
+        
+    }
+
+    &__item {
+        @include centerFlex;
+        color: $social-link-color;
+        border: 1px solid $social-link-color;
+        border-radius: 4px;
+        width: 170px;
+        height: 92px;
+        cursor: pointer;
+        transition: color $time-and-cubic,  border-color $time-and-cubic;
+    
+        &:hover{
+            color: $activ-color;
+            border-color: $activ-color;
+        }   
+    }
+
+    &__svg{
+        width: 106px;
+        height: 60px;
+        fill:currentColor;
+    }
+  }
+
+  
+ 
+  
