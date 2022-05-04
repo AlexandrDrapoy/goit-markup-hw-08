@@ -140,6 +140,10 @@ body {
   opacity: 0;
 }
 
+.svg {
+  fill: currentColor;
+}
+
 .social-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -274,16 +278,12 @@ body {
   margin-right: 10px;
 }
 
-.svg {
-  fill: currentColor;
-}
-
-.svg__phone {
+.contact-list__phone {
   width: 10px;
   height: 16px;
 }
 
-.svg__envelope {
+.contact-list__envelope {
   width: 16px;
   height: 12px;
 }
