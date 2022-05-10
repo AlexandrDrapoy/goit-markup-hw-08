@@ -27,7 +27,11 @@
 "liveSassCompile.settings.excludeList": [ 
     "**/node_modules/**",
     ".vscode/**" 
-]
+],
+"editor.tabSize": 4,
+"editor.wordWrap": "on",
+"editor.bracketPairColorization.enabled": true,
+"editor.bracketPairColorization.independentColorPoolPerBracketType": true
 
 
 }
