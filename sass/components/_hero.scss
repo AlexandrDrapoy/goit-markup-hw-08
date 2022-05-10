@@ -12,7 +12,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../image/main_page/mobile/Header-m.jpg);
+    url(../image/main_page/mobile/header-m.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -25,7 +25,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../image/main_page/mobile/Header-m@2x.jpg);
+      url(../image/main_page/mobile/header-m@2x.jpg);
   }
 
   @media (min-divice-pixel-ratio: 3),
@@ -36,13 +36,13 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../image/main_page/mobile/Header-m@3x.jpg);
+      url(../image/main_page/mobile/header-m@3x.jpg);
   }
 
   // Tablet//////////////////////////////////////////
 
   @media screen and (min-width: 480px) {
-    max-width: 768px;
+    max-width: 767px;
     background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
