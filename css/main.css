@@ -1579,6 +1579,7 @@ body {
 }
 
 .product-list__item {
+  width: 100%;
   margin: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
