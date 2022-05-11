@@ -1572,6 +1572,12 @@ body {
   line-height: 1.56;
 }
 
+@media screen and (max-width: 370px) {
+  .product-list__text-overlay {
+    font-size: 15px;
+  }
+}
+
 .product-list__item {
   margin: 15px;
   display: -webkit-box;

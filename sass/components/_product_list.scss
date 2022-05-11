@@ -31,6 +31,9 @@
     color: $white-in-progect;
     font-size: 18px;
     line-height: 1.56;
+    @media screen and (max-width: 370px) {
+      font-size: 15px;
+    }
   }
 
   &__item {
