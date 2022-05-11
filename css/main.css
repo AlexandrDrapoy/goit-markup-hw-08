@@ -1553,6 +1553,7 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
+  overflow: hidden;
   padding-left: 24px;
   padding-right: 24px;
   width: 100%;
