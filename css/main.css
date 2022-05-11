@@ -790,6 +790,12 @@ body {
   text-align: center;
 }
 
+@media screen and (min-width: 768px) {
+  .advantage__title {
+    text-align: left;
+  }
+}
+
 .advantage__description {
   color: #757575;
   line-height: 1.71;
